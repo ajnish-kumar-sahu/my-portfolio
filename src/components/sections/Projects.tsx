@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
     {
       id: '1',
       title: 'Assignment Cover Generator',
-      description: 'A web-based tool that generates professional assignment covers with customizable templates. Built with vanilla JavaScript, HTML, and CSS for easy use by students and professionals.',
+      description: 'A professional web-based tool for generating polished assignment covers with customizable templates. Features an intuitive interface and responsive design, built with vanilla JavaScript for optimal performance.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
       githubUrl: 'https://github.com/ajnish-kumar-sahu/assignment-cover-generator',
       liveUrl: 'https://ajnish-kumar-sahu.github.io/assignment-cover-generator/',
@@ -115,8 +115,8 @@ const Projects: React.FC = () => {
             Featured Projects
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            A showcase of my recent work, demonstrating expertise across different technologies 
-            and problem domains. Each project represents a unique challenge and solution.
+            A curated selection of projects showcasing practical applications of programming skills,
+            web development expertise, and problem-solving abilities across various domains.
           </p>
         </motion.div>
 

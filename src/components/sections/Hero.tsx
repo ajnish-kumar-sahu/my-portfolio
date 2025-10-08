@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-indigo-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 dark:from-gray-900 dark:via-slate-900 dark:to-gray-800"
       role="banner"
     >
       <Helmet>
@@ -96,14 +96,14 @@ const Hero: React.FC = () => {
                 'Computer Science Student',
                 'Frontend Developer',
                 'Web Development Enthusiast',
-                'Problem Solver & Innovator',
+                'Problem Solver',
                 'Java & C++ Programmer',
               ]}
               autoStart={true}
               loop={true}
-              typeSpeed={80}
-              backSpeed={50}
-              backDelay={2000}
+              typeSpeed={70}
+              backSpeed={40}
+              backDelay={1800}
             />
           </motion.div>
 
@@ -114,8 +114,8 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            I am pursuing Bachelor of Computer Applications with specialization in Computer Science. 
-            Passionate about programming, web development, and building innovative solutions with modern technologies.
+            Pursuing Bachelor of Computer Applications with a specialization in Computer Science.
+            Passionate about creating elegant solutions through code, with expertise in Java, C++, and modern web technologies.
           </motion.p>
 
           {/* CTA Buttons */}

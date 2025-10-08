@@ -37,22 +37,23 @@ const About: React.FC = () => {
             </h2>
             
             <div className="prose prose-lg dark:prose-invert">
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I am pursuing Bachelor of Computer Applications at Vinoba Bhave University, 
-                Hazaribagh College with specialization in Computer Science. My principal area 
-                of academic interest lies in programming, especially in Java, but also in C and C++.
+              <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                Currently pursuing a Bachelor of Computer Applications at Vinoba Bhave University,
+                Hazaribagh College, with a specialization in Computer Science. My academic journey
+                focuses on mastering programming languages, particularly Java and C++, while building
+                strong foundations in core computer science principles.
               </p>
-              
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I am building knowledge in data structures and algorithms to develop analytical 
-                and problem-solving skills. I have hands-on experience with HTML, CSS, and JavaScript, 
-                and enjoy translating abstract concepts to working web applications.
+
+              <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                I specialize in developing clean, efficient solutions through data structures and
+                algorithms. With hands-on experience in modern web technologies including HTML5, CSS3,
+                JavaScript, and React, I transform complex problems into intuitive, user-friendly applications.
               </p>
-              
-              <p className="text-gray-600 dark:text-gray-300">
-                I am seeking internships, collaborative ventures, and networking opportunities 
-                for hands-on exposure to advance my skills in software development and contribute 
-                to innovative projects.
+
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+                Actively seeking internship opportunities and collaborative projects to apply my skills
+                in real-world scenarios. I'm eager to contribute to innovative development teams and
+                continue growing as a software developer.
               </p>
             </div>
           </motion.div>

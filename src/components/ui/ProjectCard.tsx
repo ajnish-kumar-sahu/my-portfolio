@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     <motion.div
       whileHover={{ y: -5 }}
       transition={{ duration: 0.3 }}
-      className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+      className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-800"
     >
       {/* Project Image */}
       <div className="relative overflow-hidden h-48">

@@ -201,8 +201,8 @@ const Education: React.FC = () => {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Calendar className="h-8 w-8 text-purple-600 dark:text-purple-400" />
+              <div className="w-16 h-16 bg-orange-100 dark:bg-orange-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Calendar className="h-8 w-8 text-orange-600 dark:text-orange-400" />
               </div>
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                 Continuous Learning

@@ -31,10 +31,9 @@ const Header: React.FC = () => {
   }, [activeSection, dispatch]);
 
   const handleDownloadResume = () => {
-    // Create download link for resume
     const link = document.createElement('a');
     link.href = '/resume.pdf';
-    link.download = 'John_Doe_Resume.pdf';
+    link.download = 'Ajnish_Kumar_Resume.pdf';
     link.click();
   };
 

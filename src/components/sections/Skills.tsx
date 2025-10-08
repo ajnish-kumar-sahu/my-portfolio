@@ -45,7 +45,7 @@ const Skills: React.FC = () => {
     {
       title: 'Development Tools',
       icon: Settings,
-      color: 'purple',
+      color: 'teal',
       skills: [
         { name: 'Vite-React-TS', level: 75 },
         { name: 'Git/GitHub', level: 80 },
@@ -93,8 +93,8 @@ const Skills: React.FC = () => {
             Skills & Expertise
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Comprehensive technical skills across the full development stack, 
-            with deep expertise in modern frameworks and cloud technologies.
+            A comprehensive technical skill set spanning programming languages, web development,
+            and modern development tools, with a focus on clean code and efficient solutions.
           </p>
         </motion.div>
 
@@ -132,12 +132,12 @@ const Skills: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              { skill: 'Frontend Development', level: 92 },
-              { skill: 'Backend Development', level: 88 },
-              { skill: 'System Architecture', level: 85 },
-              { skill: 'Database Design', level: 87 },
-              { skill: 'Cloud Technologies', level: 82 },
-              { skill: 'DevOps & CI/CD', level: 80 },
+              { skill: 'Frontend Development', level: 85 },
+              { skill: 'Programming & Algorithms', level: 80 },
+              { skill: 'Problem Solving', level: 82 },
+              { skill: 'Web Application Development', level: 78 },
+              { skill: 'Version Control & Collaboration', level: 75 },
+              { skill: 'Responsive Design', level: 88 },
             ].map((item, index) => (
               <motion.div
                 key={item.skill}

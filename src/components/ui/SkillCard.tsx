@@ -23,7 +23,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, icon: Icon, color, skills 
   const colorClasses = {
     blue: 'text-blue-600 dark:text-blue-400 bg-blue-100 dark:bg-blue-900',
     green: 'text-green-600 dark:text-green-400 bg-green-100 dark:bg-green-900',
-    purple: 'text-purple-600 dark:text-purple-400 bg-purple-100 dark:bg-purple-900',
+    teal: 'text-teal-600 dark:text-teal-400 bg-teal-100 dark:bg-teal-900',
     orange: 'text-orange-600 dark:text-orange-400 bg-orange-100 dark:bg-orange-900',
   };
 

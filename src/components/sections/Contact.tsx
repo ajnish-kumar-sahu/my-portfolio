@@ -123,8 +123,8 @@ const Contact: React.FC = () => {
             Let's Work Together
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Ready to bring your ideas to life? I'd love to hear about your project 
-            and discuss how we can create something amazing together.
+            Interested in collaboration or have a project in mind? I'm always open to discussing
+            new opportunities, internships, and exciting development challenges.
           </p>
         </motion.div>
 
