@@ -19,6 +19,7 @@ const Hero = lazy(() => import('./components/sections/Hero'));
 const About = lazy(() => import('./components/sections/About'));
 const Skills = lazy(() => import('./components/sections/Skills'));
 const Projects = lazy(() => import('./components/sections/Projects'));
+const GitHub = lazy(() => import('./components/sections/GitHub'));
 const Education = lazy(() => import('./components/sections/Education'));
 const Experience = lazy(() => import('./components/sections/Experience'));
 const ResumeSection = lazy(() => import('./components/sections/ResumeSection'));
@@ -55,7 +56,11 @@ function App(): JSX.Element {
                   <Suspense fallback={<div className="h-96" />}>
                     <Projects />
                   </Suspense>
-                  
+
+                  <Suspense fallback={<div className="h-96" />}>
+                    <GitHub />
+                  </Suspense>
+
                   <Suspense fallback={<div className="h-96" />}>
                     <Education />
                   </Suspense>

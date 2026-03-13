@@ -13,6 +13,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
+    { id: 'github', label: 'GitHub' },
     { id: 'education', label: 'Education' },
     { id: 'experience', label: 'Experience' },
     { id: 'resume', label: 'Resume' },

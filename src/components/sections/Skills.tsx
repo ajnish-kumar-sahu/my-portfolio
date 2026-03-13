@@ -118,6 +118,33 @@ const Skills: React.FC = () => {
           ))}
         </div>
 
+        {/* Skill Radar Visualization */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-12 mb-16"
+        >
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
+            Overall Competency Map
+          </h3>
+
+          <div className="flex justify-center">
+            <SkillRadar
+              skills={[
+                { name: 'Frontend', level: 85 },
+                { name: 'Backend', level: 70 },
+                { name: 'Algorithms', level: 75 },
+                { name: 'Design', level: 80 },
+                { name: 'DevOps', level: 65 },
+                { name: 'Communication', level: 85 }
+              ]}
+              size={280}
+            />
+          </div>
+        </motion.div>
+
         {/* Technical Proficiency Overview */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
