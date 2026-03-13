@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import SkillCard from '../ui/SkillCard';
 import ProgressBar from '../ui/ProgressBar';
+import SkillRadar from '../ui/SkillRadar';
 import { Skill } from '../../types';
 
 /**
